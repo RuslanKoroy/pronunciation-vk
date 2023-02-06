@@ -1,0 +1,41 @@
+{
+    "one_time": false,
+    "buttons": [
+        [
+            {
+                "action": {
+                    "type": "text",
+                    "payload": "{\"button\": \"1\"}",
+                    "label": "Начать"
+                },
+                "color": "positive"
+            },
+            {
+                "action": {
+                    "type": "text",
+                    "payload": "{\"button\": \"2\"}",
+                    "label": "Рейтинг"
+                },
+                "color": "primary"
+            },
+            {
+                "action": {
+                    "type": "text",
+                    "payload": "{\"button\": \"3\"}",
+                    "label": "Подборка"
+                },
+                "color": "primary"
+            }
+        ],
+        [
+            {
+                "action": {
+                    "type": "text",
+                    "payload": "{\"button\": \"4\"}",
+                    "label": "Помощь"
+                },
+                "color": "primary"
+            }
+        ]
+    ]
+}
